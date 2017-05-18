@@ -1,0 +1,150 @@
+from time import sleep
+while True:
+    
+    print ("Hello and welcome to a HISTORY CHEAT BOOK!")
+    sleep(3)
+    print ("Here are the available topics")
+    topics=["Age Of Exploration", "Stone Age", "Bronze Age", "Rome", "Middle Ages", "Renaissance",]
+    sleep(3)
+    print (topics)
+    topic=input("What topic are you learning?")
+
+    if topic=="Age Of Exploration":
+        chapter=["Why it happened", "Explorers from Portugal", "Spains Discoveries", "The Consequences"]
+        print (chapter)
+        section1=input ("Which section?")
+
+        if section1=="Why it happened?":
+            print ("The Age Of Exploration happened due to Demand of spices,want to spread empires,the Renaissance,Myths and new technology in ships")
+            print ("Ships were built to go further,faster and hold all their cargo")
+            print ("Spices were used to preserve food and add flavour")
+            print ("Empires wanted more power,money and to spread christianity (Glory,Gold,God)")
+            print ("The Renaissance brought back old Greek maps of a round world so they investigated")
+            print ("And many Myths of Eternal life and riches popped up.")
+            sleep (10)
+        elif section1=="Explorers from Portugal":
+            print ("Prince Henry was famous for mapping the costline of North Africa and set up a school of sailing")
+            print ("Bartholomew Diaz was the first man to sail to the south tip of Africa, calling it the Cape of Storms")
+            print ("It was later changed to Cape of Good Hope to encourage sailors to join")
+            print ("Vasco da Gama was the first man to make it to India by going under Africa")
+            print ("He established a trade route to India to get spices and started spreading Christianity there")
+            sleep (10)
+        elif section1=="Spains Discoveries":
+            print ("Christopher Colombus believed the earth was round and sailed west to find out")
+            print ("He found the Carribean on 1492 and returned home in 1493")
+            print ("Magellan decided to follow Colombus and headed west")
+            print ("He went to South America and went down around the tip and went across the Pacific to the spice islands")
+            print ("He sadly was killed by tribes and the crew went on to circumfrence the globe (Go around)")
+            sleep (10)
+        elif section1=="The Consequences":
+            print ("These included Spread of empires in new countries")
+            print ("Trading between America and Europe like livestock and crops")
+            print ("A new world and a better understanding of it")
+            print ("They took over tribes and started slavery making them work for Europe")
+            print ("And conflicts between European countries themselves over money and land")
+            sleep (10)
+            
+    elif topic=="Bronze Age":
+        chapter1=["What was it", "What skills they had ", "What was life like", "What did they leave"]
+        print (chapter1)
+        section2=input ("Which section")
+
+        if section2== "What was it":
+            print ("The Bronze age was when metal work became popular.This era introduced a metal called Bronze")
+            print ("They were called beaker people and lived around 2000 BC and started in The Middle East")
+            print ("Bronze was made of copper and tin melted together making it stronger")
+            print ("They were called the beaker people because they made pots in the shape of beakers")
+            sleep (7)
+
+        elif section2=="What skills they had":
+            print("They were very skilled at mining and smelting their metals")
+            print("They were very skilled at tool making and had people called smiths who made tools and weapons")
+            print("They made jewellery called lunulae and torcs")
+            sleep (5)
+
+
+        elif section2=="What was life like":
+            print("They were experinced farmers and got better tools for it and horses were intoduced in Ireland")
+            print("They cooked their food in dug pits filled with river water and heated up rocks to boil the water. This was later called the fulacht fiadh")
+            print("Houses were made wattle and daub and were thatced like before")
+            sleep (5)
+
+        elif section2=="What did they leave":
+            print("They buried people in cist graves and wedge tombs")
+            print("Cist graves were holes in the ground and lined with stone slabs and held cremated bodies or normal bodies")
+            print("Wedge tombs were also holes but had a roof over them and held mainly cremated families")
+            print("Stone circles were tall upright stones in a circle probably used for religous purposes or a calendar")
+            sleep(7)
+            
+    elif topic=="Rome":
+        chapter2=["Who were the Romans", "Ruling the empire", "Life in the empire","How was it destroyed"]
+        print (chapter2)
+        section3=input ("Which section")
+
+        if section3=="Who were the Romans":
+            print("The empire began in 750 BC in Rome,Italy")
+            print("We know of their empire because archeaolagists have excavated and Romans wrote stories and books")
+            print("Pompeii is a well known Roman city which was destroyed in 79 AD by a volcanic eruption.The city was covered in ash and preserved it until we found it")
+            sleep (7)
+
+        elif section3=="Ruling the empire":
+            print("The empire was controlled by a Senate which was their goverment")
+            print("There were two classes of citizens,Plebians were ordinary workers and Patricians were rich landowners")
+            print("The empire had slaves which worked for Patricians and had no rights(They even fought in gladiator arenas)")
+            print("They had a very powerful army which helped them take over countries and make their empire bigger")
+            print("There emperor was a major general of the army made into ruler and he ruled the countries and army")
+            sleep(10)
+
+        elif section3=="Life in the empire":
+            print("The streets were lined with shops and workhouses but the roads were stinking of threwn out rubbish")
+            print("Patricians lived in villas which were big houses with courtyards and gardens")
+            print("Plebians lived in insulaes which were like apartments and were prone to fires because they were made of wood plus they had no toilets!")
+            print("The father was in charge of the house and were very violent while the wives had no rights and couldnt vote")
+            print("Most boys went to school and learned Maths and Latin and it was rare for girls to go to school because they married young")
+            print("They ate bread,salad,nuts and had a three course meal with seafood and meat")
+            print("Men wore togas which were robes and woman wore similar stolas")
+            print("They were professional poterers and made loads of art like mosaics and murals")
+            print("They believed in many gods and prayed at the Pantheon,The had funerals and were cremated")
+            print("Romans went to baths to relax and gossip,watched the Circus Maximus which was a horse race which was brutal")
+            print("They also watched gladiators fight each other and animals")
+            sleep(20)
+        elif section3=="How was it destroyed":
+            print("Many tribes hated the empire and decided to fight back giving them the name Barbarians")
+            print("They raided Rome in 410 AD and the empire began to fall")
+            print("The Franks retook France,And Angles and Saxons reclaimed England")
+            print("The empire survived in the east and became the Byzantine Empire")
+            print("The Romans gave us Latin,Calendar,Months,Barristers and styles of buildings")
+            sleep(10)
+
+    elif topic=="Middle Ages":
+        chapter3=["What it was and life style", "Life in a castle", "Life in a town", "Religion", "How Normans changed Ireland"]
+        print (chapter3)
+        section4=input ("Which section")
+
+        if section4=="What it was and life style":
+            print("The Middle Ages were from about 500 to 1500 AD also called the Medieval period,robbers became popular so people looked to local lords to protect them")
+            print("The feudal system was how society was run,King ran the land,vassals were earls or bishops,knights were given land and peasants had to pay taxes")
+            print("Most villages were manors where the king or ruler ruled and had all types of peasants and knights living on his land")
+            print("The peasants houses were made of wattle and daub and only had one room and kept animals in with them")
+            print("Peasants rarely ate meat and had bread and soup with bread and played Xs and Os and wrestling as pastimes")
+            print("The bailiff made sure peasants payed taxes and if the peasants hid from the bailiffs for a year they became freeman and didnt need to work")
+            sleep(15)
+
+        elif section4=="Life in a castle":
+            print("The first castles were made of Motte and Bailey.They were made of wood and were built on hill forts")
+            print("Then they made stone castles,It consisted of a keep were the king stayed and a courtyard with a well and a moat surrounding the castle")
+            print("A siege was when an army come to take over the castle by brute force or starving the people inside out")
+            print("In the keep the lord or king and his family lived with a banquet hall and dungeons")
+            print("The priest thaught the lords sons fighting skills and writing and they ate deer and other hunted animals outside the walls")
+            print("They wore tunics and pointy shoes while the women wore dresses.They were into hawking and jousting")
+            print("The wife would have an arranged marriage and they gave her a dowry for the lord to care for her forever")
+            print("Boys became knights when they were seven he was made a page, when fourteen a squire and then a knight at 20")
+            sleep(20)
+
+        elif section4=="Life in a town":
+            print("Towns had high walls and a toll which you payed to enter,the town had a main street and always had a church")
+            print("On main street houses were tight together and had little alleys and further away people were poor and had small houses")
+            print("A fair green was outside the town for carnivals and a curfew or time was set to put all fires out incase of a big fire")
+            print("Towns were dirty and people threw their dump making it easy for diseases to spread, and people were called lepers when they had disease")
+            print("The Black Death was a major disease that spread through rats and killed 1/3 of Europe!")
+            print("Guilds were groups of workers that came together to talk and vote for the coopration")
