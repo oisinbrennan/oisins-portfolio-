@@ -1,0 +1,15 @@
+from time import sleep
+import sound
+sound.play_effect('piano:F3#')
+sleep(0.5)
+sound.play_effect('piano:C4#')
+sleep(0.3)
+sound.play_effect('piano:A3#')
+sleep(0.3)
+sound.play_effect('piano:A3#')
+sleep(0.3)
+sound.play_effect()
+sleep(0.3)
+sound.play_effect('piano:D3#')
+sleep(0.3)
+sound.play_effect('piano:C4')
